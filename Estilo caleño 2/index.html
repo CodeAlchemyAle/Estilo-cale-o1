@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo Caleño</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+
+                <li><a href="#about">Sobre Nosotros</a></li>
+
+                <li><a href="#services">Servicios</a></li>
+
+                <li><a href="#reviews">Reseñas</a></li>
+                
+                <li><a href="register.html">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner" id="home">
+
+        <div class="banner-content">
+
+            <h1>Estilo Caleño</h1>
+
+            <p>El verdadero estilo del rap caleño</p>
+
+            <button onclick="location.href='#services'">Explorar Servicios</button>
+        </div>
+    </section>
+
+    <section id="about" class="content-section">
+
+        <h2>Sobre Nosotros</h2>
+
+        <p>Estilo Caleño es una empresa que representa el rap y trap caleño, trabajando para difundir y apoyar la cultura urbana de Cali. Nuestros servicios están orientados a artistas y fanáticos que buscan un espacio para desarrollar y disfrutar del arte.</p>
+        <img src="https://img.freepik.com/vector-premium/silueta-hip-hop-personas-graffiti-etiqueta-hip-hop-arte-callejero-tipografia-ilustracion_894890-1154.jpg" alt="Sobre nosotros" class="about-image">
+    </section>
+
+    <section id="services" class="content-section">
+
+        <h2>Servicios</h2>
+
+        <div class="service-card">
+
+
+            <h3>Grabación de Canciones</h3>
+
+            <p>Servicio completo de grabación en estudio profesional.</p>
+
+            <p class="service-price">Precio: $250,000 COP</p>
+
+        </div>
+        <div class="service-card">
+            <h3>Producción Musical</h3>
+
+            <p>Producción y mezcla de pistas para artistas de rap y trap.</p>
+
+            <p class="service-price">Precio: $450,000 COP</p>
+        </div>
+        <div class="service-card">
+
+            <h3>Eventos en Vivo</h3>
+
+            <p>Organización y logística de eventos en vivo en el estilo urbano.</p>
+
+            <p class="service-price">Precio: $800,000 COP</p>
+        </div>
+    </section>
+
+    <section id="reviews" class="content-section">
+
+        <h2>Reseñas de Clientes</h2>
+
+        <div id="reviews-list">
+        </div>
+
+        <form id="review-form">
+
+            <textarea id="review-text" placeholder="Escribe tu reseña sobre Estilo Caleño..." required></textarea>
+            <button type="submit">Enviar Reseña</button>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>Síguenos en nuestras redes sociales:</p>
+
+        <ul>
+
+            <li><a href="https://instagram.com">Instagram</a></li>
+
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
